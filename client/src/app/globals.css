@@ -897,10 +897,4 @@ body {
 ::selection {
   background: rgba(0, 122, 255, 0.2);
   color: var(--text-primary);
-}/* Zhang's responsive improvements - July 14, 2025 */ 
-@media (max-width: 640px) { 
-  .auth-form { 
-    padding: 1rem; 
-    margin: 0.5rem; 
-  } 
-} 
+}

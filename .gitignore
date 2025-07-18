@@ -80,24 +80,9 @@ out/
 # Vercel
 .vercel
 
-# EXCLUDE ACTUAL IMPLEMENTATION CODE (for development simulation)
-# Only keep skeleton structure and config files
-client/src/app/auth/
-client/src/app/speaker/
-client/src/app/audience/
-client/src/app/organizer/
-client/src/app/analytics/
-client/src/components/ui/
-client/src/components/DiscussionPanel.tsx
-client/src/contexts/
-client/src/hooks/useSocket.ts
-server/src/routes/auth.ts
-server/src/routes/upload.ts
-server/src/routes/presentations.ts
-server/src/routes/quiz.ts
-server/src/routes/discussions.ts
-server/src/routes/analytics.ts
-server/src/services/xfyunAiService.ts
-server/src/services/fileProcessingService.ts
-server/src/middleware/auth.ts
-server/prisma/schema.prisma
+# Upload directories
+server/uploads/
+client/public/uploads/
+
+# Package lock files (optional - you can include these if you want)
+# package-lock.json
